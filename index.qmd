@@ -11,7 +11,7 @@ Esse site funciona como repositório da disciplina de Reprodutibilidade Científ
 
 Veja minhas outras páginas:
 
-[Página 1, see my cats](https://sh3roff.github.io/pagina1)
+[Página 1, see my cats](https://sh3roff.github.io/página1)
 
 [Página 2, wait and see](https://sh3roff.github.io/pagina2)
 
