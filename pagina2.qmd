@@ -1,0 +1,26 @@
+---
+title: "pagina2"
+format: html
+editor: visual
+---
+
+# Essa é a minha página 2!
+
+
+## Repositório de aulas de reprodutibilidade
+
+A disciplina de Reprodutibilidade Científica com o R está sendo ministrada no primeiro semestre de 2024, pelo professor Maurício Camargo.
+
+![Minúsculo da mamãe](https://th.bing.com/th/id/OIP.KKTsf3s2OnwadSB-AwYAFQHaE1?rs=1&pid=ImgDetMain)
+
+![Miminho da Amanda pobre computador](https://guiaanimal.net/uploads/content/image/48533/Design_sem_nome_-_2021-08-20T184136.453.png)
+
+![imagem nova](https://th.bing.com/th/id/OIP.ie8mB8bnzmKC6F4h8e-X3wHaEo?rs=1&pid=ImgDetMain)
+
+![gato cinza](https://wallpapercave.com/wp/wp7996805.jpg)
+
+\\\![daushdiuas\](imagem.png)
+
+![ggggg](https://external-preview.redd.it/r8kXc2FXKxPGgha9WpJG45SowjkskCPFCSchrZkHEH8.jpg?width=640&crop=smart&auto=webp&s=25da2e120b7e44b12d6a479bd044d8df8768fee4)
+
+![quausaus](https://external-preview.redd.it/r8kXc2FXKxPGgha9WpJG45SowjkskCPFCSchrZkHEH8.jpg?width=640&crop=smart&auto=webp&s=25da2e120b7e44b12d6a479bd044d8df8768fee4)
