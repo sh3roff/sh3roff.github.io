@@ -4,8 +4,12 @@ format: html
 editor: visual
 ---
 
-# Essa é a minha página 2!
+```{r}
+plot(cars$speed)
+```
 
+
+# Essa é a minha página 2!
 
 ## Repositório de aulas de reprodutibilidade
 
