@@ -50,6 +50,76 @@ include-in-header:
 
 
 
+
+### Se você quiser entrar em contato, você pode:
+
+<table style="margin: 0 auto;">
+  <tr>
+    <td style="vertical-align: middle; text-align: center;">
+      Acessar meu Facebook clicando na imagem ao lado
+    </td>
+    <td>
+      [![Acessar meu Facebok clicando na imagem ao lado](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/640px-Facebook_logo_%28square%29.png){width=50px}](https://www.facebook.com/idonotreallyknow?locale=pt_BR)
+    </td>
+  </tr>
+</table>
+
+
+
+<table style="margin: 0 auto;">
+  <tr>
+    <td style="vertical-align: middle; text-align: center;">
+      Acessar meu Facebook clicando na imagem ao lado
+    </td>
+    <td>
+      [![Acessar meu Facebok clicando na imagem ao lado](https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png){width=50px}](https://www.instagram.com/imsherwaldorf/)
+    </td>
+  </tr>
+</table>
+
+
+<div style="text-align: center; margin-top: 20px;">
+  <p>Clique na imagem para copiar meu endereço de e-mail.</p>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copiar Email</title>
+</head>
+<body>
+  
+  <!-- Imagem que, ao clicar, copia o email -->
+  <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-16.png" alt="Clique aqui para copiar o e-mail" onclick="copyEmail()" style="cursor: pointer; width: 50px; height: 50px;">
+  
+  <!-- Campo de texto oculto que contém o email -->
+  <input type="text" value="sher.off@gmail.com" id="emailInput" style="position: absolute; left: -9999px;">
+
+  <script>
+    function copyEmail() {
+      // Seleciona o campo de texto
+      var emailInput = document.getElementById("emailInput");
+      
+      // Seleciona o conteúdo do campo de texto
+      emailInput.select();
+      emailInput.setSelectionRange(0, 99999); // Para dispositivos móveis
+
+      // Copia o texto selecionado para a área de transferência
+      document.execCommand("copy");
+
+      // Opcional: Alerta ou feedback ao usuário
+      alert("O e-mail foi copiado para a área de transferência!");
+    }
+  </script>
+  
+</body>
+</html>
+</div>
+
+
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
