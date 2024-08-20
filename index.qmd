@@ -54,22 +54,13 @@ include-in-header:
 </div>
 
 
+<div style="text-align: center; margin-top: 20px;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsUk_VLsw9gA7uJ87iyEByWJsaU9ixhe_fvw&s" alt="Descrição da Imagem" style="max-width: 100%; height: auto;">
+</div>
+
+Os cetáceos são uma subordem de animais que vivem predominantemente em ambientes marinhos e são mamíferos. O nome "cetáceo" deriva do grego ketos, que significa monstro marinho. Os cetáceos estão divididos em duas ordens: baleias com dentes e baleias sem dentes.
 
 
-
-
-
-# Sheron Magalhães dos Santos
-
-Esse site funciona como repositório da disciplina de Reprodutibilidade Científica com o R!
-
-Veja minhas outras páginas:
-
-[Página 1, see my cats](https://sh3roff.github.io/página1)
-
-[Página 2, wait and see](https://sh3roff.github.io/pagina2)
-
-aparece o que tem acima?
 
 
 
