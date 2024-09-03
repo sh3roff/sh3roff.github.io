@@ -6,68 +6,84 @@ include-in-header:
   - |
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
- 
 ---
 
-
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-  <div class="container-fluid">
-  <a class="navbar-brand" href="index.html"style="color: #007bff;">Cetacean Statistics</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarColor02">
-  <ul class="navbar-nav me-auto">
-  <li class="nav-item">
-  <a class="nav-link" href="página1.html">A autora</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="pagina2.html">Temática</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="pagina3.html">Estatísticas</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="pagina4.html">Contato</a>
-  </li>
-  <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Links externos</a>
-  <div class="dropdown-menu">
-  <a class="dropdown-item" href="https://www.furg.br/">FURG</a>
-  <a class="dropdown-item" href="https://imef.furg.br/">IMEF</a>
-  <a class="dropdown-item" href="https://ppgambientometria.furg.br/">Ambientometria</a>
-  <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K9298190J9&tokenCaptchar=03AFcWeA4FbtBh1AioVQcelJBGw-9ivtgM7kqPrpgB-GPsitVW-4wCaknPQSSalZtPlRBnKboVOjz8CwCNDEVKPJBZPFCqMffk56ix_JaaLRslA2CC6ixTI_YCsoNQ-0O8eWFU7bcQzHzjZs73WxDZynhBi-PMWdvj5NKG_MXMe-_dZZbUONk4N3pysb0mNL0vAok16ybiI1y17F-8Vn5MSHtSNI1tfbYeKiJU_hZnjgLFmQikGYNzXP9cJVgRHrBNmd17X87j9ZFsjgyvlVzC__WDw1SWlw5HFt2sNiZ-7Ob95y5XGQUsMQdtwrL0LNEyziP2Od4No8rXiMiVv9ZrvhWlyxGcS7jpfDNWjjdtDFn1LZwuUjPKGhw3wVDXP_Y_tlg_S-hCLaMyHc_Yas65fBOiz54xpWbNjz02Bmevdb2dJQ88DiBo_t5cASXSIaf0-Ob3vwW-9ygbcCvFZ_oErhMQFnxHzrNCTXlL61CGvDhMlMQj0caxQlPBQvpZN2OFi7td7oQ0bBajtCKE6mZqN1qb6Bn4w7I87uzvtkyx7G6orp6SXsq9t4VvkEnXj-ou5nYtiwQDd92ask1pgZxeWNMjCDaDz35SipH61gk9QMmDrGjQYwkCUxZP7cnQX1wQZDvfQKclMJJlW-gZc95enSlY_RpGKa5hStcHuQNpBMlCYvIDfVVKAPF32nkWehgnlz6ozaj0j7KusSm2KMAG03jRU9Sn1k_zMzKGA9RdEAxPljyWqGBeNATW1p6UOSGYViv1lAlpR66yyJAUJORbRsAjKRTiiKSxeXwCNJXZYMs-iAl3P3xm-i_8LHMYUBrm0rdQE0Psl2Fa15QBasZ39dpBAm1wXBdmNA">Lattes da autora</a>
-   <a class="dropdown-item" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707316U5&tokenCaptchar=03AFcWeA6mF0O6qa5D4xaNxOMFWGXelgSbfZP2sQIdzqC4mslRODYWD-QC5r747PWyjeMp5Q3J6e9TpMvinWUPiXODz9u-R5YyFqT_iKVhm5ufSSLA5Q243mGmysk9SxiK3S2Roj5S98LOkIkCKttfgKAsbPOk27S16rCDuVhajHr-Z-r1YocTKelHBrPNMTNfjwC6CTiFbMRs--lWveiZOXwHstd3jDM4m5z5ozHgf2BdWuUqng91FulwEO04Dz6J1d3FtDQ8CYzuU364YxB5szqPAlEx1rm1ZLTnJruFrEx1zH6cZmr-eyud2vCkUbCCYJaKB7tFUgq1PFFdyPfP3tYLkoQirXBeCkSVJI4WaWN2BWi6Q7P9W5TP8S9Hq67TVtJlNt0WKUjLNXSR05MfqXJM7k8ybSBU0_FhoDdI9pzhTDbOeCi_AzyQu8jVZYHyoxICMc3mgXEKqSE-ASJ_1y1XnbdMMSqCbf25Nh_gMN0BUUCQDvsh-5tTFx1GPnFaIzOJD3MNV3mvk58_bL9Re8eqiiz31Lqhn5Fs1YC1wJrdCSda2woFYqLVBJ9Fq5iOejAvGhjNT9gZxwGkVtwjqaQHsmzoF8Sm1qvJYJnkfE_XGsUxj8ONpo7STz8SoKvGyUt60gvqYAMOc8cgnJoLPmw_IU_9m_oEwV67012wPOKr6arABTG6snMd1zMDBVQ_zWoCnM_sHDkKKaMD1Kcvr07DrtY-aovdREU9ni7uwjnKPOI5CnAdh7OYBXa2-juBX3SrdrIVVrq9dGzfdh4591TWeMvuBdkmWwiY-ozglXBqyuhh-ns5z8K1i8U7PP6JycWkrVZpsZA4NJ5YzpPofiFAXVofycj0AA">Lattes do orientador</a>
-    <a class="dropdown-item" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4443714P6&tokenCaptchar=03AFcWeA6Mv_dQUTxMzOtV6gQ9-9xSP13edBNedRe1jiY4nJOHQ-EV9fBJqVporhCRw4t3PEHGdonL1RffjFuMKj8rYKUthN4nhpwT2bBGfjQTHHUMO4OxfAYe36NDRKdbWMbvyUESS-3a0i3Tz4JJttGGcHPlncC3SdIaQkKdfjACHDYC48gP_NHLOgiiSywIaUq7k0IC-IjniNJK2697_pt2PavODAOoio-f9HzRHEOPDeCzUUX_qmaWnG3lquAv9Jvf5E-QnBEiHpUdiEIEmJHfXeUDVAuXWAmkB0KdZEgDp0e6y8bRlc-awDPnkc7iOaJHXufKlSbuQohdigI6ICOUBBAwnGoo5BBvuyFv0c6zNEA3m2-vuyr6uXopUAmITeOXwdgoJCW9GUxtMbVxcvbwA4a9EXepNzZzGGiXgbPk8Mj_zbhU2nfFCjtpppI9AvsR767uhuNfLT3fZh3AJtAe9eHNt3kgJEwNXN_Q0_6LSGFi-sUZXNhjfKqmyh-2Kb7ki0U7NufVahJNH_Xrj3ZXMbyrscmqLjyBhi8fTRb7Q5T0T2r4Tx9RvbI1Y_vWJlmeex2JKBQTz6ZcbnFIXHgTA0ozSyYVPBx9pnURzYeG9y56-yK_sRsgYH-E3IJ3wSOkvw2gRigVy_Bi1a_Tv8ZigWnbyzdku3qT_-io72Mx1wl9dN1RjS5NA6PypYNwriI7cL4Ebe-Wp5u81tv91ZbEfXG3CL_ALJUl6VGueIwuwraDD--bB5Joh-YiYtKxFJepGcmtx87IxXSYq3lOtexu3Ks_pv3pn6os-uJJOyc2Y1A9NbZKrO833Pb32ktfRiJbJyVfZTNArTWyyr-NTTxOpZhOCB62Zw">Lattes da coorientadora</a>
-   <a class="dropdown-item" href="https://imef.furg.br/images/stories/Monografias/Matematica_licenciatura/2023/2023-Sheron_Magalhaes_dos_Santos.pdf">TCC em Matemática Licenciatura</a>
-   </div>
-   </li>
-   </ul>
-   </div>
-  </div>
+
+::: container-fluid
+<a class="navbar-brand" href="index.html"style="color: #007bff;">Cetacean Statistics</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> </button>
+
+::: {#navbarColor02 .collapse .navbar-collapse}
+<ul class="navbar-nav me-auto">
+
+<li class="nav-item">
+
+<a class="nav-link" href="página1.html">A autora</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="pagina2.html">Temática</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="pagina3.html">Estatísticas</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="pagina4.html">Contato</a>
+
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Links externos</a>
+
+::: dropdown-menu
+<a class="dropdown-item" href="https://www.furg.br/">FURG</a> <a class="dropdown-item" href="https://imef.furg.br/">IMEF</a> <a class="dropdown-item" href="https://ppgambientometria.furg.br/">Ambientometria</a>
+
+::: dropdown-divider
+:::
+
+<a class="dropdown-item" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K9298190J9&tokenCaptchar=03AFcWeA4FbtBh1AioVQcelJBGw-9ivtgM7kqPrpgB-GPsitVW-4wCaknPQSSalZtPlRBnKboVOjz8CwCNDEVKPJBZPFCqMffk56ix_JaaLRslA2CC6ixTI_YCsoNQ-0O8eWFU7bcQzHzjZs73WxDZynhBi-PMWdvj5NKG_MXMe-_dZZbUONk4N3pysb0mNL0vAok16ybiI1y17F-8Vn5MSHtSNI1tfbYeKiJU_hZnjgLFmQikGYNzXP9cJVgRHrBNmd17X87j9ZFsjgyvlVzC__WDw1SWlw5HFt2sNiZ-7Ob95y5XGQUsMQdtwrL0LNEyziP2Od4No8rXiMiVv9ZrvhWlyxGcS7jpfDNWjjdtDFn1LZwuUjPKGhw3wVDXP_Y_tlg_S-hCLaMyHc_Yas65fBOiz54xpWbNjz02Bmevdb2dJQ88DiBo_t5cASXSIaf0-Ob3vwW-9ygbcCvFZ_oErhMQFnxHzrNCTXlL61CGvDhMlMQj0caxQlPBQvpZN2OFi7td7oQ0bBajtCKE6mZqN1qb6Bn4w7I87uzvtkyx7G6orp6SXsq9t4VvkEnXj-ou5nYtiwQDd92ask1pgZxeWNMjCDaDz35SipH61gk9QMmDrGjQYwkCUxZP7cnQX1wQZDvfQKclMJJlW-gZc95enSlY_RpGKa5hStcHuQNpBMlCYvIDfVVKAPF32nkWehgnlz6ozaj0j7KusSm2KMAG03jRU9Sn1k_zMzKGA9RdEAxPljyWqGBeNATW1p6UOSGYViv1lAlpR66yyJAUJORbRsAjKRTiiKSxeXwCNJXZYMs-iAl3P3xm-i_8LHMYUBrm0rdQE0Psl2Fa15QBasZ39dpBAm1wXBdmNA">Lattes da autora</a> <a class="dropdown-item" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707316U5&tokenCaptchar=03AFcWeA6mF0O6qa5D4xaNxOMFWGXelgSbfZP2sQIdzqC4mslRODYWD-QC5r747PWyjeMp5Q3J6e9TpMvinWUPiXODz9u-R5YyFqT_iKVhm5ufSSLA5Q243mGmysk9SxiK3S2Roj5S98LOkIkCKttfgKAsbPOk27S16rCDuVhajHr-Z-r1YocTKelHBrPNMTNfjwC6CTiFbMRs--lWveiZOXwHstd3jDM4m5z5ozHgf2BdWuUqng91FulwEO04Dz6J1d3FtDQ8CYzuU364YxB5szqPAlEx1rm1ZLTnJruFrEx1zH6cZmr-eyud2vCkUbCCYJaKB7tFUgq1PFFdyPfP3tYLkoQirXBeCkSVJI4WaWN2BWi6Q7P9W5TP8S9Hq67TVtJlNt0WKUjLNXSR05MfqXJM7k8ybSBU0_FhoDdI9pzhTDbOeCi_AzyQu8jVZYHyoxICMc3mgXEKqSE-ASJ_1y1XnbdMMSqCbf25Nh_gMN0BUUCQDvsh-5tTFx1GPnFaIzOJD3MNV3mvk58_bL9Re8eqiiz31Lqhn5Fs1YC1wJrdCSda2woFYqLVBJ9Fq5iOejAvGhjNT9gZxwGkVtwjqaQHsmzoF8Sm1qvJYJnkfE_XGsUxj8ONpo7STz8SoKvGyUt60gvqYAMOc8cgnJoLPmw_IU_9m_oEwV67012wPOKr6arABTG6snMd1zMDBVQ_zWoCnM_sHDkKKaMD1Kcvr07DrtY-aovdREU9ni7uwjnKPOI5CnAdh7OYBXa2-juBX3SrdrIVVrq9dGzfdh4591TWeMvuBdkmWwiY-ozglXBqyuhh-ns5z8K1i8U7PP6JycWkrVZpsZA4NJ5YzpPofiFAXVofycj0AA">Lattes do orientador</a> <a class="dropdown-item" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4443714P6&tokenCaptchar=03AFcWeA6Mv_dQUTxMzOtV6gQ9-9xSP13edBNedRe1jiY4nJOHQ-EV9fBJqVporhCRw4t3PEHGdonL1RffjFuMKj8rYKUthN4nhpwT2bBGfjQTHHUMO4OxfAYe36NDRKdbWMbvyUESS-3a0i3Tz4JJttGGcHPlncC3SdIaQkKdfjACHDYC48gP_NHLOgiiSywIaUq7k0IC-IjniNJK2697_pt2PavODAOoio-f9HzRHEOPDeCzUUX_qmaWnG3lquAv9Jvf5E-QnBEiHpUdiEIEmJHfXeUDVAuXWAmkB0KdZEgDp0e6y8bRlc-awDPnkc7iOaJHXufKlSbuQohdigI6ICOUBBAwnGoo5BBvuyFv0c6zNEA3m2-vuyr6uXopUAmITeOXwdgoJCW9GUxtMbVxcvbwA4a9EXepNzZzGGiXgbPk8Mj_zbhU2nfFCjtpppI9AvsR767uhuNfLT3fZh3AJtAe9eHNt3kgJEwNXN_Q0_6LSGFi-sUZXNhjfKqmyh-2Kb7ki0U7NufVahJNH_Xrj3ZXMbyrscmqLjyBhi8fTRb7Q5T0T2r4Tx9RvbI1Y_vWJlmeex2JKBQTz6ZcbnFIXHgTA0ozSyYVPBx9pnURzYeG9y56-yK_sRsgYH-E3IJ3wSOkvw2gRigVy_Bi1a_Tv8ZigWnbyzdku3qT_-io72Mx1wl9dN1RjS5NA6PypYNwriI7cL4Ebe-Wp5u81tv91ZbEfXG3CL_ALJUl6VGueIwuwraDD--bB5Joh-YiYtKxFJepGcmtx87IxXSYq3lOtexu3Ks_pv3pn6os-uJJOyc2Y1A9NbZKrO833Pb32ktfRiJbJyVfZTNArTWyyr-NTTxOpZhOCB62Zw">Lattes da coorientadora</a> <a class="dropdown-item" href="https://imef.furg.br/images/stories/Monografias/Matematica_licenciatura/2023/2023-Sheron_Magalhaes_dos_Santos.pdf">TCC em Matemática Licenciatura</a>
+:::
+
+</li>
+
+</ul>
+:::
+:::
+
 </nav>
 
+<div style="text-align: center; margin-top: 20px;">
+  <h1>Predição de cenários futuros de mudanças climáticas: Um estudo sobre cetáceos</h1>
+</div>
+
+Olá, visitantes! Essa frase ao centro na parte superior da minha página não é necessariamente o título da minha pesquisa de mestrado, mas é o tema com o qual vou trabalhar. Pretendo utilizar as ferramentas estatísticas de BART (árvores de regressão aditivas Bayesianas) e MAXENT (princípio da máxima entropia) para realizar meu estudo, comparando modelos e aproximando a previsões de cenários futuros, tudo isso envolvendo os cetáceos, que são animais mamíferos predominantemente marinhos.
+
+```{r}
+xnames <- c("x1","x2","x3","x4","x5","x6","x7","x8") 
+## Run the BART model 
+sdm <- bart(y.train=occ.df[,"Observed"], 
+            x.train=occ.df[,xnames], 
+            keeptrees = TRUE)
+## Predict the species distribution 
+map <- predict(sdm, climate) ## Visualize model performance 
+summary(bart)
+```
 
 
+<!--  -->
 
 
-# Essa é a minha página 2!
+$$\int x^{2}dx$$
+$$x^{\frac{1}{2}}$$
 
-## Repositório de aulas de reprodutibilidade
+$$\sqrt[2]{x}$$
 
-A disciplina de Reprodutibilidade Científica com o R está sendo ministrada no primeiro semestre de 2024, pelo professor Maurício Camargo.
-
-![Minúsculo da mamãe](https://th.bing.com/th/id/OIP.KKTsf3s2OnwadSB-AwYAFQHaE1?rs=1&pid=ImgDetMain)
-
-![Miminho da Amanda pobre computador](https://guiaanimal.net/uploads/content/image/48533/Design_sem_nome_-_2021-08-20T184136.453.png)
-
-![imagem nova](https://th.bing.com/th/id/OIP.ie8mB8bnzmKC6F4h8e-X3wHaEo?rs=1&pid=ImgDetMain)
-
-![gato cinza](https://wallpapercave.com/wp/wp7996805.jpg)
-
-\\\![daushdiuas\](imagem.png)
-
-![ggggg](https://external-preview.redd.it/r8kXc2FXKxPGgha9WpJG45SowjkskCPFCSchrZkHEH8.jpg?width=640&crop=smart&auto=webp&s=25da2e120b7e44b12d6a479bd044d8df8768fee4)
-
-![quausaus](https://external-preview.redd.it/r8kXc2FXKxPGgha9WpJG45SowjkskCPFCSchrZkHEH8.jpg?width=640&crop=smart&auto=webp&s=25da2e120b7e44b12d6a479bd044d8df8768fee4)

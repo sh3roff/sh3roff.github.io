@@ -1,0 +1,111 @@
+---
+title: "O impacto das mudanças climáticas no habitat de mamíferos marinhos"
+format: revealjs
+editor: visual
+theme: [blood, custom.scss]
+css: styles.css
+---
+
+<style>
+  body {
+    font-family: "Arial", sans-serif; /* Ajuste para a fonte usada globalmente */
+    font-size: 16px; /* Ajuste o tamanho padrão da fonte */
+  }
+  
+  /* Definindo o tamanho da fonte para o texto dentro das divs */
+  .custom-text {
+    font-family: inherit; /* Usa a fonte do elemento pai */
+    font-size: 1.4em; /* Aumenta o tamanho da fonte, ajuste conforme necessário */
+  }
+</style>
+
+## Navegue pela apresentação:
+
+- [O que são animais mamíferos marinhos?](#cetaceos)
+- [Economia Azul](#economiazul)
+- [Resultados](#resultados)
+- [Conclusão](#conclusao)
+
+---
+
+## O que são animais mamíferos marinhos? {#cetaceos}
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="flex: 1; padding: 10px;">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnU5ZjA4cDN6em4zaGdxbW41Mm1jbzUxZWppbnduNDJlNzR1OGprMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jwlZfKsjFTmBW/giphy.webp" alt="Imagem de Cetáceo" style="width: 100%;"/>
+  </div>
+  <div style="flex: 1; padding: 10px;" class="custom-text">
+    Os mamíferos marinhos, também chamados de cetáceos, compreendem uma infraordem de animais, atualmente sendo conhecidos por 86 espécies, divididos entre Mysticeti (animais sem dentes) e Odonceti (animais com dentes). São exemplos de cetáceos baleias e golfinhos.
+  </div>
+</div>
+
+
+
+
+## Economia Azul {#economiazul}
+::: {.incremental}
+- Termo utilizado para refletir sobre as atividades econômicas realizadas e/ou desenvolvidas por meio de recursos marinhos;
+- Projeto "Diversidade e prospecção biológica e geológica voltadas para a Economia Azul e sua gestão", integrando sete cursos de pós-graduação da FURG e a CNPQ;
+- Blue Economy: 10 years, 100 inovations, 100 million jobs (PAULI, 2010) -  complexidades referentes à atividade econômica nos oceanos, como a exploração excessiva de recursos, a poluição, o aumento do nível e temperatura do mar...
+:::
+
+---
+
+## Metodologia {#metodologia}
+
+fsdfsadf
+
+```{r}
+library(ggplot2)
+library(ggforce)
+r <- seq(0, 2, by = 0.01)
+theta <- 2 * pi * r
+data <- data.frame(r = r, theta = theta)
+
+ggplot(data, aes(x = theta, y = r)) +
+  geom_line() +
+  coord_polar() +
+  scale_y_continuous(breaks = c(0.5, 1, 1.5, 2)) +
+  theme_minimal() +
+  theme(axis.title = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+```
+
+
+
+---
+
+## Resultados {#resultados}
+
+```{r}
+library(ggplot2)
+
+# Supondo que você tenha um dataframe 'cars' com as colunas Horsepower, Miles_per_Gallon e Origin
+# Se necessário, ajuste os nomes das colunas para corresponder ao seu dataframe
+
+ggplot(cars, aes(x = Horsepower, y = Miles_per_Gallon, color = Origin)) +
+  geom_point() +
+  theme_minimal() +
+  labs(x = "Horsepower", y = "Miles per Gallon") +
+  theme(
+    plot.title = element_text(size = 14, face = "bold"),
+    axis.title = element_text(size = 12),
+    legend.title = element_text(size = 12)
+  ) +
+  coord_cartesian(xlim = c(NA, NA), ylim = c(NA, NA)) +
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.border = element_blank()
+  ) +
+  theme(legend.position = "right")
+
+```
+
+
+
+
+---
+
+## Conclusão {#conclusao}

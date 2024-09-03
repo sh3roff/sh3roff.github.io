@@ -1,0 +1,92 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"O impacto das mudanças climáticas no habitat de mamíferos marinhos\"\n",
+        "format: revealjs\n",
+        "editor: visual\n",
+        "theme: [blood, custom.scss]\n",
+        "css: styles.css\n",
+        "---\n",
+        "\n",
+        "\n",
+        "## Navegue pela apresentação:\n",
+        "\n",
+        "- [O que são animais mamíferos marinhos?](#cetaceos)\n",
+        "- [Economia Azul](#economiazul)\n",
+        "- [Resultados](#resultados)\n",
+        "- [Conclusão](#conclusao)\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## O que são animais mamíferos marinhos? {#cetaceos}\n",
+        "\n",
+        "Os mamíferos marinhos, também chamados de cetáceos, compreendem uma infraordem de animais, atualmente sendo conhecidos por 86 espécies, divididos entre Mysticeti (animais sem dentes) e Odonceti (animais com dentes). São exemplos de cetáceos baleias e golfinhos. \n",
+        "\n",
+        "![](https://img1.picmix.com/output/stamp/normal/9/8/7/4/1734789_11332.gif)\n",
+        "\n",
+        "## Economia Azul {#economiazul}\n",
+        "::: {.incremental}\n",
+        "- Termo utilizado para refletir sobre as atividades econômicas realizadas e/ou desenvolvidas por meio de recursos marinhos;\n",
+        "- Projeto \"Diversidade e prospecção biológica e geológica voltadas para a Economia Azul e sua gestão\", integrando sete cursos de pós-graduação da FURG e a CNPQ;\n",
+        "- Blue Economy: 10 years, 100 inovations, 100 million jobs (PAULI, 2010) -  complexidades referentes à atividade econômica nos oceanos, como a exploração excessiva de recursos, a poluição, o aumento do nível e temperatura do mar...\n",
+        ":::\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## Metodologia {#metodologia}\n",
+        "\n",
+        "fsdfsadf\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## Resultados {#resultados}\n"
+      ],
+      "id": "2692bacb"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: true\n",
+        "\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "r = np.arange(0, 2, 0.01)\n",
+        "theta = 2 * np.pi * r\n",
+        "fig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\n",
+        "ax.plot(theta, r)\n",
+        "ax.set_rticks([0.5, 1, 1.5, 2])\n",
+        "ax.grid(True)\n",
+        "plt.show()"
+      ],
+      "id": "e4b02072",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "\n",
+        "## Conclusão {#conclusao}"
+      ],
+      "id": "262065ae"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

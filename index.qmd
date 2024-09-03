@@ -58,9 +58,9 @@ include-in-header:
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsUk_VLsw9gA7uJ87iyEByWJsaU9ixhe_fvw&s" alt="Descrição da Imagem" style="max-width: 100%; height: auto;">
 </div>
 
-Os cetáceos são uma subordem de animais que vivem predominantemente em ambientes marinhos e são mamíferos. O nome "cetáceo" deriva do grego ketos, que significa monstro marinho. Os cetáceos estão divididos em duas ordens: baleias com dentes e baleias sem dentes.
+Os cetáceos são uma subordem de animais que vivem predominantemente em ambientes marinhos e são mamíferos. O nome "cetáceo" deriva do grego ketos, que significa monstro marinho. Os cetáceos estão divididos em duas ordens: animais com dentes e animais sem dentes.
 
-
+Clique [aqui](apresentacao.html) para visualizar a apresentação que elaborei!
 
 
 
