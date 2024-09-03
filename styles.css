@@ -36,3 +36,19 @@
 .reveal {
   font-size: 18px; /* Reduza globalmente o tamanho da fonte */
 }
+<style>
+  body {
+    font-family: "Arial", sans-serif; /* Ajuste para a fonte usada globalmente */
+    font-size: 16px; /* Ajuste o tamanho padrão da fonte */
+  }
+  
+  /* Definindo o tamanho da fonte para o texto dentro das divs */
+  .custom-text {
+    font-family: inherit; /* Usa a fonte do elemento pai */
+    font-size: 1.4em; /* Aumenta o tamanho da fonte, ajuste conforme necessário */
+  }
+</style>
+
+.justify-text {
+    text-align: justify;
+}

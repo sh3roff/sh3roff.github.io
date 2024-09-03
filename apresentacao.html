@@ -28,6 +28,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #f07178; background-color: #2a0f15; font-weight: bold; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #00e0e0; } /* Attribute */
+    code span.bn { color: #d4d0ab; } /* BaseN */
+    code span.bu { color: #abe338; } /* BuiltIn */
+    code span.cf { color: #ffa07a; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffd700; } /* Constant */
+    code span.co { color: #f8f8f2; font-style: italic; } /* Comment */
+    code span.cv { color: #ffd700; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #ffa07a; } /* DataType */
+    code span.dv { color: #d4d0ab; } /* DecVal */
+    code span.er { color: #f07178; text-decoration: underline; } /* Error */
+    code span.ex { color: #00e0e0; font-weight: bold; } /* Extension */
+    code span.fl { color: #d4d0ab; } /* Float */
+    code span.fu { color: #ffa07a; } /* Function */
+    code span.im { color: #abe338; } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; font-weight: bold; } /* Keyword */
+    code span.op { color: #ffa07a; } /* Operator */
+    code span.ot { color: #00e0e0; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.re { color: #00e0e0; background-color: #f8f8f2; } /* RegionMarker */
+    code span.sc { color: #abe338; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #00e0e0; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #dcc6e0; } /* Warning */
   </style>
   <link rel="stylesheet" href="apresentacao_files/libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="styles.css">
@@ -244,6 +309,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -332,78 +398,130 @@
 </div>
 
 </section>
-<section class="slide level2">
-
-<style>
-  body {
-    font-family: "Arial", sans-serif; /* Ajuste para a fonte usada globalmente */
-    font-size: 16px; /* Ajuste o tamanho padrão da fonte */
-  }
-  
-  /* Definindo o tamanho da fonte para o texto dentro das divs */
-  .custom-text {
-    font-family: inherit; /* Usa a fonte do elemento pai */
-    font-size: 1.4em; /* Aumenta o tamanho da fonte, ajuste conforme necessário */
-  }
-</style>
-</section>
 <section id="navegue-pela-apresentação" class="slide level2">
 <h2>Navegue pela apresentação:</h2>
 <ul>
 <li><a href="#/cetaceos">O que são animais mamíferos marinhos?</a></li>
 <li><a href="#/economiazul">Economia Azul</a></li>
-<li><a href="#/resultados">Resultados</a></li>
-<li><a href="#/conclusao">Conclusão</a></li>
+<li><a href="#/trabarea">Trabalhos na área</a></li>
+<li><a href="#/exemplgraf">Exemplo de gráfico</a></li>
+<li><a href="#/consfin">Considerações finais</a></li>
 </ul>
 </section>
 <section id="cetaceos" class="slide level2">
 <h2>O que são animais mamíferos marinhos?</h2>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
 <div style="flex: 1; padding: 10px;">
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnU5ZjA4cDN6em4zaGdxbW41Mm1jbzUxZWppbnduNDJlNzR1OGprMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jwlZfKsjFTmBW/giphy.webp" alt="Imagem de Cetáceo" style="width: 100%;">
+<p><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnU5ZjA4cDN6em4zaGdxbW41Mm1jbzUxZWppbnduNDJlNzR1OGprMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jwlZfKsjFTmBW/giphy.webp" alt="Imagem de Cetáceo" style="width: 80%;"></p>
 </div>
-<div class="custom-text" style="flex: 1; padding: 10px;">
-<pre><code>Os mamíferos marinhos, também chamados de cetáceos, compreendem uma infraordem de animais, atualmente sendo conhecidos por 86 espécies, divididos entre Mysticeti (animais sem dentes) e Odonceti (animais com dentes). São exemplos de cetáceos baleias e golfinhos.</code></pre>
+<div style="flex: 1; padding: 10px; font-size: 0.8em; text-align: justify;">
+<p>Os mamíferos marinhos, também chamados de cetáceos, compreendem uma infraordem de animais, atualmente sendo conhecidos por 86 espécies, divididos entre Mysticeti (animais sem dentes) e Odonceti (animais com dentes). São exemplos de cetáceos baleias e golfinhos.</p>
 </div>
 </div>
 </section>
-<section id="economiazul" class="slide level2">
+<section id="economiazul" class="slide level2" style="font-size: 0.9em;">
 <h2>Economia Azul</h2>
+<ul>
+<li>Termo utilizado para refletir sobre as atividades econômicas realizadas e/ou desenvolvidas por meio de recursos marinhos;</li>
+</ul>
 <div>
 <ul>
-<li class="fragment">Termo utilizado para refletir sobre as atividades econômicas realizadas e/ou desenvolvidas por meio de recursos marinhos;</li>
 <li class="fragment">Projeto “Diversidade e prospecção biológica e geológica voltadas para a Economia Azul e sua gestão”, integrando sete cursos de pós-graduação da FURG e a CNPQ;</li>
 <li class="fragment">Blue Economy: 10 years, 100 inovations, 100 million jobs (PAULI, 2010) - complexidades referentes à atividade econômica nos oceanos, como a exploração excessiva de recursos, a poluição, o aumento do nível e temperatura do mar…</li>
 </ul>
 </div>
 </section>
-<section id="metodologia" class="slide level2">
-<h2>Metodologia</h2>
-<p>fsdfsadf</p>
+<section id="trabarea" class="slide level2" style="font-size: 0.9em;">
+<h2>Pesquisa sistemática</h2>
+<p>Existem diversos trabalhos que envolvam a temática de cenários de mudanças climáticas e os cetáceos. Por exemplo, em uma pesquisa sistemática na base de dados Web of Science com as palavras-chave “climate change”, “projection” e “marine animals”, são encontrados 88 resultados. Desses 88 resultados, o mais velho publicado foi no ano de 1960, três deles foram publicados ainda no ano de 2024 e o ano com mais publicações foi o ano de 2021, com 12 artigos.</p>
+<p>Veja na próxima página os artigos que meu orientador me entregou para estudos iniciais!</p>
+</section>
+<section id="artigos-entregues-pelo-orientador" class="slide level2">
+<h2>Artigos entregues pelo orientador</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Artigo 1</a></li><li><a href="#tabset-1-2">Artigo 2</a></li><li><a href="#tabset-1-3">Artigo 3</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div style="text-align: center;">
+<p><img src="art3.png" width="1000"></p>
+</div>
+</div>
+<div id="tabset-1-2">
+<div style="text-align: center;">
+<p><img src="art2.png" width="1000"></p>
+</div>
+</div>
+<div id="tabset-1-3">
+<div style="text-align: center;">
+<p><img src="art3.png" width="1000"></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="exemplgraf" class="slide level2">
+<h2>Veja um exemplo de gráfico</h2>
 
 <img data-src="apresentacao_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
-<section id="resultados" class="slide level2">
-<h2>Resultados</h2>
-<p>library(ggplot2)</p>
-</section>
-<section id="supondo-que-você-tenha-um-dataframe-cars-com-as-colunas-horsepower-miles_per_gallon-e-origin" class="title-slide slide level1 center">
-<h1>Supondo que você tenha um dataframe ‘cars’ com as colunas Horsepower, Miles_per_Gallon e Origin</h1>
+<section class="slide level2">
 
-</section>
+<h3 id="veja-qual-foi-o-código-utilizado-para-gerar-o-gráfico-da-página-anterior">Veja qual foi o código utilizado para gerar o gráfico da página anterior:</h3>
+<p>Este é o código:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href=""></a><span class="fu">library</span>(ggforce)</span>
+<span id="cb1-3"><a href=""></a>r <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="at">by =</span> <span class="fl">0.01</span>)</span>
+<span id="cb1-4"><a href=""></a>theta <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">*</span> pi <span class="sc">*</span> r</span>
+<span id="cb1-5"><a href=""></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">r =</span> r, <span class="at">theta =</span> theta)</span>
+<span id="cb1-6"><a href=""></a></span>
+<span id="cb1-7"><a href=""></a><span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> theta, <span class="at">y =</span> r)) <span class="sc">+</span></span>
+<span id="cb1-8"><a href=""></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb1-9"><a href=""></a>  <span class="fu">coord_polar</span>() <span class="sc">+</span></span>
+<span id="cb1-10"><a href=""></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb1-11"><a href=""></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb1-12"><a href=""></a>  <span class="fu">theme</span>(<span class="at">axis.title =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb1-13"><a href=""></a>        <span class="at">axis.text =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb1-14"><a href=""></a>        <span class="at">axis.ticks =</span> <span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
-<section>
-<section id="se-necessário-ajuste-os-nomes-das-colunas-para-corresponder-ao-seu-dataframe" class="title-slide slide level1 center">
-<h1>Se necessário, ajuste os nomes das colunas para corresponder ao seu dataframe</h1>
-<p>ggplot(cars, aes(x = Horsepower, y = Miles_per_Gallon, color = Origin)) + geom_point() + theme_minimal() + labs(x = “Horsepower”, y = “Miles per Gallon”) + theme( plot.title = element_text(size = 14, face = “bold”), axis.title = element_text(size = 12), legend.title = element_text(size = 12) ) + coord_cartesian(xlim = c(NA, NA), ylim = c(NA, NA)) + theme( panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.border = element_blank() ) + theme(legend.position = “right”)</p>
-</section>
-<section id="conclusao" class="slide level2">
-<h2>Conclusão</h2>
+</div>
+<img data-src="apresentacao_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Gráfico gerado com ggplot2</p></section>
+<section id="consfin" class="slide level2">
+<h2>Considerações finais</h2>
+<p>Como estou no início da elaboração do meu projeto, não tenho dados o suficente para mostrar tabelas, mas veja abaixo a tabela que pode ser criada utilizando o conjunto de dados “cars” do R:</p>
+<blockquote>
+<p>Usando a função “head”, mostrando as primeiras linhas de observações</p>
+</blockquote>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>  speed dist
+1     4    2
+2     4   10
+3     7    4
+4     7   22
+5     8   16
+6     9   10</code></pre>
+</div>
+</div>
+<blockquote>
+<p>Usando a função “tail”, mostrando as últimas linhas de observações</p>
+</blockquote>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>   speed dist
+45    23   54
+46    24   70
+47    24   92
+48    24   93
+49    24  120
+50    25   85</code></pre>
+</div>
+</div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
