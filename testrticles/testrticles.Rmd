@@ -1,7 +1,7 @@
 ---
 title: Um mapa teórico do estado do conhecimento sobre a acessibilidade e a inclusão de PCDs nas escolas
 author:
-  - name: Sheron Magalhães dis Santos
+  - name: Sheron Magalhães dos Santos
     email: sher.off21@gmail.com
     affiliation: Universidade Federal do Rio Grande
     correspondingauthor: true
